@@ -4,7 +4,7 @@ This didn’t start as a project.
 It started as confusion.
 
 One day I kept seeing *n8n* everywhere — YouTube, LinkedIn, random posts.  
-Everyone seemed to be using it. Everyone was excited about it.
+Everyone seemed to be using it. Everyone was curious about it.
 
 So I got curious.
 
