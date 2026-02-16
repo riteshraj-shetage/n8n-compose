@@ -47,3 +47,4 @@ flowchart TB
     style Docker fill:#1a1a2e,stroke:#16213e,color:#fff
     style Volumes fill:#0f3460,stroke:#16213e,color:#fff
     style Server fill:#0a0a0a,stroke:#333,color:#fff
+```
