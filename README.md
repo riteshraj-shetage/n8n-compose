@@ -24,7 +24,7 @@ Simple, reproducible setup for running `n8n with Docker Compose on Ubuntu 24.04`
 - [ ] A domain name with a DNS **A Record** pointing to your server’s public IP  
        Example: `n8n.example.com → <your-server-ip>` | (here `n8n` is the subdomain/hostname)
 
-- [ ] SSH access to the server
+- [ ] [Self-hosting knowledge prerequisites](docs/media/docs.n8n.io_hosting_installation_docker.png)
 
 ---
 
