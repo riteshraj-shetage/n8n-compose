@@ -1,14 +1,18 @@
-# n8n-compose
+<p align="center">
+  <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" alt="n8n logo" width="140" />
+  </a>
+</p>
 
-Simple, reproducible setup for running `n8n with Docker Compose on Ubuntu 24.04` — designed to make self‑hosting fast, portable, and production‑ready.
+<h2 align="center">n8n-compose</h2>
 
-## Highlights
+<p align="center">
+  Self-host <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">n8n</a> on a Linux server using <b>Docker Compose</b> — a minimal, practical setup with a focus on reliability and easy upgrades.
+</p>
 
-- Minimal Docker Compose setup for n8n on Ubuntu 24.04
-- Secure HTTPS with automatic SSL via Let's Encrypt
-- Easy domain + subdomain configuration through `.env`
-- Lightweight, reproducible, and production‑ready workflow automation
-- Portable deployments with backup and restore support
+<p align="center">
+  <b>Highlights:</b> quick deployment • clean compose layout • production-friendly defaults
+</p>
 
 ---
 
