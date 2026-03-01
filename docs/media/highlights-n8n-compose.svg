@@ -4,7 +4,6 @@
       .card { fill:#0B1220; stroke:#253247; stroke-width:1.1; }
       .chip { fill:#0F172A; stroke:#253247; stroke-width:1.1; }
 
-      .title { font: 800 16px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#F8FAFC; letter-spacing:0.2px; }
       .chipTitle { font: 750 12px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#E5E7EB; }
       .chipSub { font: 500 11px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#A7B0C0; }
 
@@ -19,15 +18,15 @@
       .c-upgrade { stroke:#F43F5E; }
 
       .bar { fill:#FF2D55; }
+
+      .footer { font: 600 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#64748B; letter-spacing:0.15px; }
     </style>
   </defs>
 
-  <rect x="20" y="20" width="940" height="156" rx="20" class="card"/>
-  <rect x="20" y="20" width="7" height="156" rx="7" class="bar"/>
+  <rect x="14" y="14" width="952" height="168" rx="20" class="card"/>
+  <rect x="14" y="14" width="7" height="168" rx="7" class="bar"/>
 
-  <text x="44" y="54" class="title">n8n-compose — Highlights</text>
-
-  <g transform="translate(44,76)">
+  <g transform="translate(38,34)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <circle class="ico c-proxy" cx="6" cy="6" r="3.2"/>
@@ -41,7 +40,7 @@
     <text x="52" y="34" class="chipSub">domain routing + TLS termination</text>
   </g>
 
-  <g transform="translate(356,76)">
+  <g transform="translate(350,34)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <path class="ico c-https" d="M13 3l9 4v7c0 6-3.7 10-9 12-5.3-2-9-6-9-12V7l9-4z"/>
@@ -51,7 +50,7 @@
     <text x="52" y="34" class="chipSub">Let’s Encrypt certificates via Traefik</text>
   </g>
 
-  <g transform="translate(668,76)">
+  <g transform="translate(662,34)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <rect class="ico c-compose" x="4" y="4" width="18" height="7" rx="2"/>
@@ -64,7 +63,7 @@
     <text x="52" y="34" class="chipSub">easy deploy, predictable services &amp; volumes</text>
   </g>
 
-  <g transform="translate(44,126)">
+  <g transform="translate(38,84)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <rect class="ico c-scripts" x="3" y="5" width="20" height="16" rx="4"/>
@@ -75,7 +74,7 @@
     <text x="52" y="34" class="chipSub">setup / start / stop with documented workflow</text>
   </g>
 
-  <g transform="translate(356,126)">
+  <g transform="translate(350,84)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <path class="ico c-backup" d="M6 10h14"/>
@@ -87,7 +86,7 @@
     <text x="52" y="34" class="chipSub">tarball backups + SFTP transfer guidance</text>
   </g>
 
-  <g transform="translate(668,126)">
+  <g transform="translate(662,84)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
       <path class="ico c-upgrade" d="M21 14a8 8 0 1 1-2.2-5.6"/>
@@ -96,4 +95,6 @@
     <text x="52" y="18" class="chipTitle">Easy upgrades</text>
     <text x="52" y="34" class="chipSub">update script to keep n8n current</text>
   </g>
+
+  <text x="950" y="166" text-anchor="end" class="footer">@riteshraj-shetage/n8n-compose</text>
 </svg>

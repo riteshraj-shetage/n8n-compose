@@ -2,7 +2,7 @@
 
 Self-host n8n on a Linux server using <b>Docker Compose</b> — a minimal, practical setup with a focus on reliability and easy upgrades.
 
-<img src="./docs/media/highlights.svg" alt="n8n-compose highlights" width="980" />
+<img src="./docs/media/highlights-n8n-compose.svg" alt="n8n-compose highlights" width="980" />
 
 ---
 
