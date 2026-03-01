@@ -1,46 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="196" viewBox="0 0 980 196" role="img" aria-label="n8n-compose highlights (dark)">
   <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FF2D55"/>
-      <stop offset="1" stop-color="#DB2777"/>
-    </linearGradient>
-
-    <filter id="shadow" x="-10%" y="-30%" width="120%" height="160%">
-      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
-    </filter>
-
     <style>
-      .card { fill:#0B1220; stroke:#1F2937; stroke-width:1; }
-      .chip { fill:#0F172A; stroke:#233047; stroke-width:1; }
+      .card { fill:#0B1220; stroke:#253247; stroke-width:1.1; }
+      .chip { fill:#0F172A; stroke:#253247; stroke-width:1.1; }
 
-      .title { font: 800 16px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#E5E7EB; letter-spacing:0.2px; }
+      .title { font: 800 16px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#F8FAFC; letter-spacing:0.2px; }
       .chipTitle { font: 750 12px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#E5E7EB; }
-      .chipSub { font: 500 11px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#9CA3AF; }
+      .chipSub { font: 500 11px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#A7B0C0; }
 
-      .ico { fill:none; stroke:url(#accent); stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; }
-      .icoSoft { fill:none; stroke:#64748B; stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round; }
+      .ico { fill:none; stroke-width:2.3; stroke-linecap:round; stroke-linejoin:round; }
+      .icoSoft { fill:none; stroke:#7C8AA3; stroke-width:2.3; stroke-linecap:round; stroke-linejoin:round; }
+
+      .c-proxy { stroke:#38BDF8; }
+      .c-https { stroke:#22C55E; }
+      .c-compose { stroke:#3B82F6; }
+      .c-scripts { stroke:#F97316; }
+      .c-backup { stroke:#A855F7; }
+      .c-upgrade { stroke:#F43F5E; }
+
+      .bar { fill:#FF2D55; }
     </style>
   </defs>
 
-  <!-- Container -->
-  <rect x="20" y="20" width="940" height="156" rx="20" class="card" filter="url(#shadow)"/>
-  <rect x="20" y="20" width="7" height="156" rx="7" fill="url(#accent)"/>
+  <rect x="20" y="20" width="940" height="156" rx="20" class="card"/>
+  <rect x="20" y="20" width="7" height="156" rx="7" class="bar"/>
 
-  <!-- Header -->
   <text x="44" y="54" class="title">n8n-compose — Highlights</text>
 
-  <!-- Chips grid (3x2) -->
-
-  <!-- Row 1 -->
   <g transform="translate(44,76)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <circle class="ico" cx="6" cy="6" r="3.2"/>
-      <circle class="ico" cx="20" cy="6" r="3.2"/>
-      <circle class="ico" cx="13" cy="20" r="3.2"/>
-      <path class="ico" d="M8.7 8.7L11.2 11.2"/>
-      <path class="ico" d="M17.3 8.7L14.8 11.2"/>
-      <path class="ico" d="M9.5 6H16.5"/>
+      <circle class="ico c-proxy" cx="6" cy="6" r="3.2"/>
+      <circle class="ico c-proxy" cx="20" cy="6" r="3.2"/>
+      <circle class="ico c-proxy" cx="13" cy="20" r="3.2"/>
+      <path class="ico c-proxy" d="M8.7 8.7L11.2 11.2"/>
+      <path class="ico c-proxy" d="M17.3 8.7L14.8 11.2"/>
+      <path class="ico c-proxy" d="M9.5 6H16.5"/>
     </g>
     <text x="52" y="18" class="chipTitle">Traefik reverse proxy</text>
     <text x="52" y="34" class="chipSub">domain routing + TLS termination</text>
@@ -49,33 +44,32 @@
   <g transform="translate(356,76)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <path class="ico" d="M13 3l9 4v7c0 6-3.7 10-9 12-5.3-2-9-6-9-12V7l9-4z"/>
-      <path class="ico" d="M9.5 14.5l2.3 2.3 5.5-6.2"/>
+      <path class="ico c-https" d="M13 3l9 4v7c0 6-3.7 10-9 12-5.3-2-9-6-9-12V7l9-4z"/>
+      <path class="ico c-https" d="M9.5 14.5l2.3 2.3 5.5-6.2"/>
     </g>
     <text x="52" y="18" class="chipTitle">Automatic HTTPS</text>
     <text x="52" y="34" class="chipSub">Let’s Encrypt certificates via Traefik</text>
   </g>
 
-  <g transform="translate(644,76)">
+  <g transform="translate(668,76)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <rect class="ico" x="4" y="4" width="18" height="7" rx="2"/>
+      <rect class="ico c-compose" x="4" y="4" width="18" height="7" rx="2"/>
       <rect class="icoSoft" x="4" y="13" width="18" height="7" rx="2"/>
       <rect class="icoSoft" x="4" y="22" width="18" height="7" rx="2"/>
-      <path class="ico" d="M8 7h2"/>
+      <path class="ico c-compose" d="M8 7h2"/>
       <path class="icoSoft" d="M8 16h2M8 25h2"/>
     </g>
     <text x="52" y="18" class="chipTitle">Docker Compose deploy</text>
     <text x="52" y="34" class="chipSub">easy deploy, predictable services &amp; volumes</text>
   </g>
 
-  <!-- Row 2 -->
   <g transform="translate(44,126)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <rect class="ico" x="3" y="5" width="20" height="16" rx="4"/>
-      <path class="ico" d="M7.5 12l3 3-3 3"/>
-      <path class="ico" d="M13.5 18h6"/>
+      <rect class="ico c-scripts" x="3" y="5" width="20" height="16" rx="4"/>
+      <path class="ico c-scripts" d="M7.5 12l3 3-3 3"/>
+      <path class="ico c-scripts" d="M13.5 18h6"/>
     </g>
     <text x="52" y="18" class="chipTitle">One-command scripts</text>
     <text x="52" y="34" class="chipSub">setup / start / stop with documented workflow</text>
@@ -84,20 +78,20 @@
   <g transform="translate(356,126)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <path class="ico" d="M6 10h14"/>
-      <path class="ico" d="M8 10V7.5A2.5 2.5 0 0 1 10.5 5h5A2.5 2.5 0 0 1 18 7.5V10"/>
-      <rect class="ico" x="6" y="10" width="14" height="14" rx="4"/>
-      <path class="ico" d="M11 16h4"/>
+      <path class="ico c-backup" d="M6 10h14"/>
+      <path class="ico c-backup" d="M8 10V7.5A2.5 2.5 0 0 1 10.5 5h5A2.5 2.5 0 0 1 18 7.5V10"/>
+      <rect class="ico c-backup" x="6" y="10" width="14" height="14" rx="4"/>
+      <path class="ico c-backup" d="M11 16h4"/>
     </g>
     <text x="52" y="18" class="chipTitle">Backup &amp; restore</text>
     <text x="52" y="34" class="chipSub">tarball backups + SFTP transfer guidance</text>
   </g>
 
-  <g transform="translate(644,126)">
+  <g transform="translate(668,126)">
     <rect x="0" y="0" width="292" height="42" rx="14" class="chip"/>
     <g transform="translate(14,8)">
-      <path class="ico" d="M21 14a8 8 0 1 1-2.2-5.6"/>
-      <path class="ico" d="M20.8 4.5v6h-6"/>
+      <path class="ico c-upgrade" d="M21 14a8 8 0 1 1-2.2-5.6"/>
+      <path class="ico c-upgrade" d="M20.8 4.5v6h-6"/>
     </g>
     <text x="52" y="18" class="chipTitle">Easy upgrades</text>
     <text x="52" y="34" class="chipSub">update script to keep n8n current</text>
