@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h2 align="center">n8n-compose</h2>
+<h1 align="center">n8n-compose</h1>
 
 <p align="center">
   Self-host <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">n8n</a> on a Linux server using <b>Docker Compose</b> — a minimal, practical setup with a focus on reliability and easy upgrades.
