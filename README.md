@@ -1,18 +1,8 @@
-<p align="center">
-  <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">
-    <img src="https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-logo.png" alt="n8n logo" width="140" />
-  </a>
-</p>
+# n8n-compose
 
-<h1 align="center">n8n-compose</h1>
+Self-host n8n on a Linux server using <b>Docker Compose</b> — a minimal, practical setup with a focus on reliability and easy upgrades.
 
-<p align="center">
-  Self-host <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">n8n</a> on a Linux server using <b>Docker Compose</b> — a minimal, practical setup with a focus on reliability and easy upgrades.
-</p>
-
-<p align="center">
-  <img src="./docs/media/highlights.svg" alt="n8n-compose highlights" width="980" />
-</p>
+<img src="./docs/media/highlights.svg" alt="n8n-compose highlights" width="980" />
 
 ---
 
