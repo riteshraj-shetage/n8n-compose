@@ -100,7 +100,3 @@ _(This setup step only appears once — it initializes your admin account for th
 
 For more details, see the official n8n Docker Compose guide:  
 [https://docs.n8n.io/hosting/installation/server-setups/docker-compose/](https://docs.n8n.io/hosting/installation/server-setups/docker-compose/)
-
-### Next steps...
-
-Learn more about [configuring](https://docs.n8n.io/hosting/configuration/environment-variables/) and [scaling](https://docs.n8n.io/hosting/scaling/overview/) n8n.
