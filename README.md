@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <b>Highlights:</b> quick deployment • clean compose layout • production-friendly defaults
+  <img src="./docs/media/highlights.svg" alt="n8n-compose highlights" width="980" />
 </p>
 
 ---
